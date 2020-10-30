@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/pairs-game/static/css/main.9bdbce7c.chunk.css",
+    "main.js": "/pairs-game/static/js/main.6f8fe189.chunk.js",
+    "main.js.map": "/pairs-game/static/js/main.6f8fe189.chunk.js.map",
+    "runtime-main.js": "/pairs-game/static/js/runtime-main.36ad0c75.js",
+    "runtime-main.js.map": "/pairs-game/static/js/runtime-main.36ad0c75.js.map",
+    "static/js/2.3b815a71.chunk.js": "/pairs-game/static/js/2.3b815a71.chunk.js",
+    "static/js/2.3b815a71.chunk.js.map": "/pairs-game/static/js/2.3b815a71.chunk.js.map",
+    "index.html": "/pairs-game/index.html",
+    "static/css/main.9bdbce7c.chunk.css.map": "/pairs-game/static/css/main.9bdbce7c.chunk.css.map",
+    "static/js/2.3b815a71.chunk.js.LICENSE.txt": "/pairs-game/static/js/2.3b815a71.chunk.js.LICENSE.txt",
+    "static/media/cat.417e36b3.jpg": "/pairs-game/static/media/cat.417e36b3.jpg",
+    "static/media/cow.c87597c7.jpg": "/pairs-game/static/media/cow.c87597c7.jpg",
+    "static/media/deer.336cd972.jpg": "/pairs-game/static/media/deer.336cd972.jpg",
+    "static/media/dog.eeffc5d5.jpg": "/pairs-game/static/media/dog.eeffc5d5.jpg",
+    "static/media/giraffe.1b1abf69.jpg": "/pairs-game/static/media/giraffe.1b1abf69.jpg",
+    "static/media/gorilla.287f508e.jpg": "/pairs-game/static/media/gorilla.287f508e.jpg",
+    "static/media/lion.5e697a94.jpg": "/pairs-game/static/media/lion.5e697a94.jpg",
+    "static/media/meerkat.696f0ffb.jpg": "/pairs-game/static/media/meerkat.696f0ffb.jpg",
+    "static/media/puffin.7744b498.jpg": "/pairs-game/static/media/puffin.7744b498.jpg",
+    "static/media/rabbit.63223628.jpg": "/pairs-game/static/media/rabbit.63223628.jpg",
+    "static/media/turkey.bf786ea0.jpg": "/pairs-game/static/media/turkey.bf786ea0.jpg",
+    "static/media/wallaby.cae246dd.jpg": "/pairs-game/static/media/wallaby.cae246dd.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.36ad0c75.js",
+    "static/js/2.3b815a71.chunk.js",
+    "static/css/main.9bdbce7c.chunk.css",
+    "static/js/main.6f8fe189.chunk.js"
+  ]
+}
