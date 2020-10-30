@@ -66,12 +66,17 @@ body {
 /* #endregion  */
 
 #headerContainer {
-  padding: 1rem 1rem 0 1rem;
+  padding: 1rem;
+  background-color: rgb(69, 69, 69);
+  color: whitesmoke;
 }
 
-header {
+header,
+#scoreBoardContainer {
   max-width: 900px;
   margin: auto;
+  
+  
 }
 
 p {

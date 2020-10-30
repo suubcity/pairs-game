@@ -1,15 +1,32 @@
 import React from "react";
 
 function Picture(props) {
-   return props.imageArray.map(image => {
-        return(
-            <div class="gameImageContainer">
-                <img src={image} alt="" class="gameImage" ></img>
-            </div>
-        )
-    })
-    
-   
+  function handleClick(e) {
+    if (props.imageHasBeenClicked(e.target.dataset.key)) {
+      alert("you loose");
+      props.clearClickedImages();
+      props.setCurrentScore(0);
+    } else {
+      props.addToClickedImages(e.target.dataset.key);
+      props.shuffleImagArray();
+      props.updateCurrentScore();     
+    }
+  }
+
+  return props.imageArray.map((item) => {
+    return (
+      <div className="gameImageContainer">
+        <img
+          onClick={handleClick}
+          src={item.image}
+          alt=""
+          className="gameImage"
+          key={item.key}
+          data-key={item.key}
+        ></img>
+      </div>
+    );
+  });
 }
 
 export default Picture;

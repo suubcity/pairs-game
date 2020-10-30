@@ -1,17 +1,21 @@
 import React from "react";
 import ScoreBoard from "./ScoreBoard";
 
-function Header() {
+function Header(props) {
   return (
     <div id="headerContainer">
       <header>
-        <h2>Don't pick a pair.</h2>
+        <h2>Don't Pick a Pair</h2>
         <p>
           Get points by clicking on an image but don't click on any more than
           once!
         </p>
       </header>
-      <ScoreBoard />
+      <div>
+      <ScoreBoard currentScore={props.currentScore} topScore={props.topScore} />
+
+      </div>
+     
     </div>
   );
 }

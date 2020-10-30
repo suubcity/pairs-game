@@ -1,9 +1,9 @@
 import React from "react";
 
-function ScoreBoard() {
+function ScoreBoard(props) {
   return <div id="scoreBoardContainer">
-      <p>Current Score 10</p>
-      <p>Top Score 12</p>
+      <p>Current Score {props.currentScore}</p>
+      <p>Top Score {props.topScore}</p>
   </div>;
 }
 
